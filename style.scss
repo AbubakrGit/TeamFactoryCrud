@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+$width: 1440px;   
+// ex: width:$width;
+
+// @mixin  >  @include (name;)
+// $mixedcolor: ;
+
+// >
+// linear-gradient (to ... red , green , blue);
+
+// &:hover  (bitta tepa kodga tasir qiladi)
+@mixin flexbox{
+    display: flex;
+
+}
+@mixin text{
+    text-decoration: none;
+    list-style: none;
+}
+.img{
+    width: 20px;
+    height: 20px;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+}
+.buttons{
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    .btn{
+        margin-left: 50px;
+    }
+}
+nav{
+    background: rgb(25, 162, 183);
+    .main__img{
+        margin: 30px 50px 10px 520px;
+    }
+    height: 390px;
+}
+header{
+    background: rgb(79, 79, 232);
+}
